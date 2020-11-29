@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VOLUNTEER</title>
+	<link rel="stylesheet" type="text/css" href="css/lib.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation-menu.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/volunteer.css">
+	
+</head>
+
+<body>
+	<div class="main-container">
+
+		<header id="header" class="header-section container-fluid no-padding">
+			<div class="logoImg">
+				<a href="index.html"><img src="images/logo1.png" alt="Logo" /></a>
+			</div> 
+			<nav class="navbar navbar-default ow-navigation">
+				<div class="navbar-header">
+					<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="navbar-collapse collapse navbar-right" id="navbar">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="index.html" title="Home" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+							<!-- <i class="ddl-switch fa fa-angle-down"></i>
+							<ul class="dropdown-menu">				
+								<li><a href="index.html" title="homepage 1">homepage 1</a></li>
+								<li><a href="index2.html" title="homepage 2">homepage 2</a></li>
+							</ul> -->
+						</li>
+						<li><a href="donate.html" title="About">DONATE</a></li>
+						<li class="active dropdown">
+							<a href="volunteer.html" title="Inventory" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">VOLUNTEER</a>
+						</li>
+						<li><a href="case.html" title="Services">CASE</a></li>
+						<li class="dropdown">
+							<a href="contact.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" title="Pages">CONTACT</a>
+						</li>
+						<li><a href="#"><img src="images/member.png" alt="member" /></a></li>
+						<li><a href="#"><img src="images/shopping-cart.png" alt="shopping" /></a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</nav>			
+		</header>
+	</div>
+	<div class="All-Creatures">
+		<h1>"All creatures are deserving of a lifefree from fear and pain.'</h1>
+		<h1>Maura Cummings</h1>
+		<div class="All-Item-Box">
+			<div class="All-Item">
+				<img src="images/medical.svg">
+				<p><b>SUPPLY</b></p>
+				<p>Collige omnia, quae soletis:<br/>Praesidium amicorum.</p>
+			</div>
+			<div class="All-Item">
+				<img src="images/skills.svg">
+				<p><b>SKILLS</b></p>
+				<p>Collige omnia, quae soletis:<br/>Praesidium amicorum.</p>
+			</div>
+			<div class="All-Item">
+				<img src="images/donation (2).svg">
+				<p><b>FUNDRAISE</b></p>
+				<p>Collige omnia, quae soletis:<br/>Praesidium amicorum.</p>
+			</div>
+		</div>
+	</div>
+	<div class="From-Box">
+		<div class="From-Box-Item">
+			<img src="images/dog.svg">
+		</div>
+		<div class="From-Box-Item">
+			<form action="#" id="VFrom" onsubmit="checkForm()">
+				<input type="text" name="" placeholder=" NAME" id="text" required>
+				<input id="email" type="email" name="" placeholder=" EMAIL ADDRESS" value="" required>
+				<input id="work" type="text" name="" placeholder=" WORK" required>
+				<select>
+					<option>service</option>
+					<option>product</option>
+					<option>volunteer</option>
+				</select>
+				<input id="time" type="text" name="" placeholder=" AVAILABLE TIME" required>
+				<textarea id="liuya" name="" placeholder=" MESSGE..." rows="10" required></textarea>
+				<div class="Button-Box">
+					<button type="reset">RESET</button>
+					<button type="submit">SUBMIT</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<footer>
+		<p class="pIc">Help an Animal receives NO government funding and relies 100% on our generous supporters.
+		</p>
+		<div class="Footer-Box">
+			<div class="Footer-Item">
+				<img src="images/logoX.png">
+			</div>
+			<div class="Footer-Item">
+                <img src="images/ins.png">
+			</div>
+		</div>
+	</footer>
+	
+	<!-- JQuery v1.12.4 -->
+	<script src="js/jquery-1.12.4.min.js"></script>
+
+	<!-- Library - Js -->
+	<script src="js/lib.js"></script>
+
+	<script src="js/functions.js"></script>
+	<script type="text/javascript" src="js/VOLUNTEER.js"></script>
+</body>
+</html>

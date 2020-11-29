@@ -1,0 +1,116 @@
+@font-face{
+	font-family: 'Ubuntu-Bold';
+	src : url('../fonts/Ubuntu-Bold.ttf');
+}
+@font-face{
+	font-family: 'NunitoSans-Light';
+	src : url('../fonts/NunitoSans-Light.ttf');
+}
+
+.All-Creatures{
+	padding: 5%;
+	border-bottom: 1px solid #999;
+}
+.All-Creatures h1{
+	font-family: "Ubuntu-Bold"
+}
+.All-Item-Box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.All-Item{
+	width: 29%;
+	text-align: center;
+}
+.All-Item p:nth-child(2){
+	margin-top: 10px;
+}
+.All-Item p:nth-child(3){
+	font-family: 'NunitoSans-Light';
+}
+.All-Item img{
+	width: 100%;
+}
+.From-Box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 5%;
+}
+.From-Box-Item {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+}
+.From-Box-Item  img{
+	width: 80%;
+	height: 80%;
+
+}
+.From-Box-Item form{ 
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.From-Box-Item form input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 3%;
+	border-radius: 5px;
+	border:2px solid #000;
+	padding-left: 10px;
+}
+.From-Box-Item form select{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 3%;
+	border-radius: 5px;
+	border:2px solid #000;
+	padding-left: 10px;
+}
+.From-Box-Item form textarea{
+	margin-bottom: 3%;
+	border-radius: 5px;
+	border:2px solid #000;
+	padding-left: 10px;
+}
+.From-Box-Item input:nth-child(1){
+	width: 40%;
+}
+.From-Box-Item input:nth-child(2){
+	width: 60%;
+}
+.From-Box-Item input:nth-child(3){
+	width: 60%;
+}
+.From-Box-Item input:nth-child(4){
+	width: 80%;
+}
+.Button-Box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.Button-Box button{
+	width: 30%;
+	color: #fff;
+	border-radius: 20px;
+	border:1px solid #ed2649;
+	background-color: #ed2649;
+	padding: 2%;
+}
+
+@media (max-width:360px) {
+	h1{
+	font-size: 20px;
+	}
+	.Button-Box button{
+		font-size: 1vw;
+	}
+	footer .pIc{
+		line-height: 20px;
+	}
+}

@@ -1,0 +1,24 @@
+@font-face{
+	font-family: 'NunitoSans-Light';
+	src : url('../fonts/NunitoSans-Light.ttf');
+}
+@font-face{
+	font-family: 'NunitoSans-SemiBold';
+	src : url('../fonts/NunitoSans-SemiBold.ttf');
+}
+
+.De-Sexing{
+	padding: 5%;
+	border-bottom: 1px solid #999;
+}
+.De-Sexing p{
+	font-family: "NunitoSans-SemiBold" ;
+}
+.fubt{
+	
+	font-family: "NunitoSans-Light"!important;
+}
+
+.Img-Box img{
+	width: 100%;
+}

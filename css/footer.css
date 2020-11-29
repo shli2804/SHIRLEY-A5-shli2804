@@ -1,0 +1,38 @@
+/*footer*/
+@font-face{
+	font-family: 'Kalam-Bold';
+	src : url('../fonts/Kalam-Bold.ttf');
+}
+footer .pIc{
+	background-color:#ed2649 ;
+	line-height: 50px;
+	color: #fff;
+	padding: 0px 5%;
+	font-family: "Kalam-Bold";
+
+}
+.Footer-Box{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.Footer-Item{
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+.Footer-Item img{
+	width: 35%;
+}
+@media (max-width:500px) {
+	footer .pIc{
+		line-height: 30px;
+	}
+}
+@media (max-width:360px) {
+	
+	.WE-SUPPLY h3{
+		font-size: 20px;
+	}
+}
+

@@ -1,0 +1,66 @@
+.text-center{
+	text-align: center;
+}
+.Max-Box{
+	padding: 5%;
+}
+.From-Box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+.From-Box-Item {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.From-Box-Item  img{
+	width: 80%;
+	height: 80%;
+
+}
+.From-Box-Item form{ 
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.From-Box-Item form input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 3%;
+	border-radius: 5px;
+	border:2px solid #000;
+}
+.From-Box-Item form textarea{
+	margin-bottom: 3%;
+	border-radius: 5px;
+	border:2px solid #000;
+}
+.From-Box-Item input:nth-child(1){
+	width: 40%;
+}
+.From-Box-Item input:nth-child(2){
+	width: 60%;
+}
+
+.Button-Box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.Button-Box button{
+	width: 30%;
+	color: #fff;
+	border-radius: 20px;
+	border:1px solid #ed2649;
+	background-color: #ed2649;
+	padding: 2%;
+}
+
+@media (max-width:448px) {
+  .Button-Box{
+  	font-size: 12px;
+  }
+
+}

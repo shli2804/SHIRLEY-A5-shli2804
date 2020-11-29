@@ -1,0 +1,538 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face{
+	font-family: 'NunitoSans';
+	src : url('../fonts/NunitoSans-Bold.ttf');
+}
+@font-face{
+	font-family: 'NunitoSans-SemiBold';
+	src : url('../fonts/NunitoSans-SemiBold.ttf');
+}
+@font-face{
+	font-family: 'NunitoSans-Black';
+	src : url('../fonts/NunitoSans-Black.ttf');
+}
+@font-face{
+	font-family: 'Ubuntu-Bold';
+	src : url('../fonts/Ubuntu-Bold.ttf');
+}
+
+.ow-navigation.navbar-default .navbar-nav > .active > a, .ow-navigation.navbar-default .navbar-nav > .active > a:focus, .ow-navigation.navbar-default .navbar-nav > .active > a:hover, .ow-navigation .nav.navbar-nav li:hover > a, .ow-navigation .nav.navbar-nav li:focus > a, .ow-navigation .nav.navbar-nav li a:hover, .ow-navigation .nav.navbar-nav li a:focus{
+	color: #ed2649;
+}
+/*cat*/
+.cat{
+	background: url("../images/bg-cat.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.cat h1{
+	margin-top: 0px;
+	font-size: 5vw;
+}
+.Cat-Box{
+	padding: 20% 0%;
+	color: #fff;
+	width: 50%;
+	text-align: center;
+}
+.Cat-Box button{
+	background-color: #f52a4d;
+	border:3px solid #fff;
+	border-radius: 15px;
+	padding: 1% 5%;
+	
+}
+.Cat-Box  a{
+	color: #fff;
+}
+.Cat-Box  a:hover{
+	text-decoration: none;
+}
+
+/*Who-WeAre*/
+.Who-WeAre{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;  
+}
+.Who-Left{
+	width:75%;
+	text-align: center;
+	padding: 3%;
+	overflow: hidden;
+}
+.Who-Left h2{
+	font-family: "NunitoSans"
+}
+.Who-Left p{
+	font-family: "NunitoSans-SemiBold";
+	font-size: 20px;
+}
+.Who-Right{
+	flex:1;
+}
+.Who-Right img{
+	width: 100%;
+	height: 100%;
+}
+
+/*Icon-Box*/
+.Icon-Box{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	background-color: #000;
+	text-align: center;
+	padding: 5% 2%;
+}
+.Icon-Item-Box{
+	width: 29%;
+}
+.Border-Box{
+	border:1px solid #fff;
+}
+.Border-Box img{
+	width: 100%;
+	height: 95%;
+
+}
+.Icon-Item-Box button{
+	background-color: #fff;
+	border:3px solid #f52a4d;
+	border-radius: 15px;
+	width: 120px;
+	padding: 2%;
+	margin-top: 20%;
+}
+/*WE-SUPPLY*/
+.WE-SUPPLY{
+	padding:5%;
+	font-size: 20px;
+}
+.WE-SUPPLY h3{
+	text-align: center;
+	font-family: "Ubuntu-Bold"
+}
+.Food{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top:5%;
+	align-items: center;
+}
+.Food-Box{
+	width: 15%;
+}
+.Food-Box img{
+	width: 100%;
+	height: 100%;
+}
+.Food-Z{
+	flex: 1;
+	padding-left: 1%;
+	
+
+}
+
+.Treatments{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top:5%;
+	justify-content: flex-end;
+	align-items: center;
+}
+.Treatments-Box {
+	width: 15%;
+}
+
+.Treatments-Box img{
+	width: 100%;
+	height: 100%;
+}
+.Treatments-Z{
+	width:60%;
+	padding-left: 1%;
+}
+.Heal{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top:5%;
+	align-items: center;
+}
+.Heal-Box  {
+	width: 15%;
+}
+
+.Heal-Box img{
+	width: 100%;
+	height: 100%;
+}
+.Heal-Z{
+	flex: 1;
+	padding-left: 1%;
+}
+
+
+
+
+/*移动端*/
+@media (max-width: 1550px) {
+
+	.ow-navigation.navbar-default .navbar-nav > li > a{
+		padding: 0 15px;
+	}
+}
+@media (max-width: 1326px) {
+ .Border-Box img{
+ 	height: 120%;
+ }
+.Icon-Item-Box button{
+	margin-top: 20%;
+}
+
+}
+@media (max-width: 1237px) {
+
+	.Border-Box img{
+ 	height: 110%;
+ }
+
+}
+@media (max-width: 1210px) {
+
+	.ow-navigation.navbar-default .navbar-nav > li{
+		margin-left:7px;
+		margin-right: 7px;
+	}
+
+}
+@media (max-width: 1164px) {
+
+	.ow-navigation.navbar-default .navbar-nav > li{
+		margin-left:7px;
+		margin-right: 7px;
+	}
+}
+@media (max-width: 1152px) {
+
+	.ow-navigation.navbar-default .navbar-nav > li{
+		margin-left:0px;
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 1400px) {
+
+		.Border-Box{
+			height: 50vh;
+    }
+}
+@media (max-width: 1042px) {
+
+		.Border-Box{
+			height: 45vh;
+		}
+}
+@media (max-width: 1080px) {
+
+	.Border-Box img{
+ 	height: 100%;
+ }
+ .Icon-Item-Box button{
+ 	margin-top: 10%;
+ }
+
+}
+@media (max-width: 1003px) {
+
+	.ow-navigation.navbar-default .navbar-nav > li > a{
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.ow-navigation.navbar-default .navbar-nav li a{
+		line-height: 20px;
+	}
+	.Border-Box{
+		height:43vh;
+	}
+}
+@media (max-width: 890px) {
+
+	.Border-Box img{
+		height:90%;
+	}
+}
+
+@media (max-width: 850px) {
+
+	.Border-Box img{
+		height:80%;
+	}
+}
+@media (max-width:800px) {
+   .Border-Box{
+   	height: 45vh;
+   }
+   .Border-Box img{
+   	width: 100%;
+   }
+}
+@media (max-width:768px) {
+   .Border-Box{
+   	height: 33vh;
+   }
+}
+@media (max-width:718px) {
+   .Who-Left{
+   	width: 60%;
+   }
+   .Border-Box{
+   	height: 42vh;
+   }
+   .Border-Box img{
+   	 height: 75%;
+   }
+}
+@media (max-width:616px) {
+  .Border-Box{
+  	height: 38vh;
+  }
+}
+@media (max-width:598px) {
+  .Border-Box{
+  	height: 39vh;
+  }
+}
+@media (max-width:584px) {
+  .Who-Left{
+  	height: 400px;
+  }
+}
+}
+@media (max-width:564px) {
+  .Border-Box{
+  	height: 36vh;
+  }
+}
+@media (max-width:544px) {
+  .Border-Box{
+  	height: 35vh;
+  }
+}
+
+@media (max-width:500px) {
+		.Food-Box {
+			width: 25%;
+		}
+		.Food-Box img{
+			width: 90%;
+		}
+		.Food-Z p{
+			font-size: 16px;
+		}
+
+		.Treatments-Box {
+			width: 25%;
+		}
+		.Treatments-Box img{
+			width: 90%;
+		}
+		.Treatments-Z p{
+			font-size: 16px;
+		}
+		.Heal-Box {
+			width: 25%;
+		}
+		.Heal-Box img{
+			width: 90%;
+		}
+		.Heal-Z  p{
+			font-size: 16px;
+		}
+		
+		
+		header .logoImg img{
+			width: 200%;
+		}
+		.navbar-header{
+			margin-top: 10px;
+		}
+		.ow-navigation{
+			padding-bottom: 0px;
+		}
+		.Border-Box{
+			height: 24vh;
+		}
+		.Icon-Item-Box{
+			height: 35vh;
+		}
+		.Border-Box img{
+			height: 100%;
+		}
+		.header-section.navbar-fixed-top .ow-navigation{
+			padding-top: 10px;
+		}
+		.navbar-header{
+			margin-top: 0;
+		}
+		footer .pIc{
+			line-height: 25px;
+		}
+		.Footer-Item img{
+			width: 75%;
+		}
+	}
+
+@media (max-width:456px) {
+      .Border-Box{
+      	height: 23vh;
+      }
+	}
+@media (max-width:434px) {
+      .Border-Box{
+      	height: 21vh;
+      }
+	}
+@media (max-width:415px) {
+	   .Border-Box img{
+	   	height: 70%;
+	   }
+		header .logoImg img{
+			width: 100%;
+		}
+		header .logoImg{
+			width: 40%;
+		}
+		.Who-Left{
+			padding: 1%;
+		}
+		h2{
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+		.Border-Box{
+			height: 19vh;
+		}
+		.Border-Box img{
+			margin-top: 2vh;
+		}
+
+		.Food-Box{
+			width: 20%;
+			height: 10vh;
+		}
+		.Treatments-Box{
+			width: 20%;
+			height: 10vh;
+
+		}
+		.Heal-Box{
+			width: 20%;
+			height: 10vh;
+		}
+		.Food-Z p{
+			padding-left: 10px;
+		}
+		.Treatments-Z p{
+			padding-left: 10px;
+		}
+		.Heal-Z p{
+			padding-left: 10px;
+		}
+		footer .pIc{
+			line-height: 20px;
+			font-size: 15px;
+		}
+		.navbar-header{
+			margin-top: 5px;
+		}
+		.Icon-Item-Box{
+			height: 30vh;
+		}
+		.Food-Box img{
+			width: 100%;
+		}
+		.Treatments-Box img{
+			width:100%;
+		}
+		.Heal-Box img{
+			width: 100%;
+		}
+		.Food-Z p{
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+		}
+		.Treatments p{
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+		}
+		.Heal p{
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+		}
+		h3{
+			margin: 0px;
+		}
+		.Who-WeAre{
+			height: 300px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.Who-Left{
+			width: 55%;
+			padding: 2%;
+		}
+		.Who-Left h2{
+			font-size: 20px;
+		}
+		.Who-Left p{
+			font-size: 12px;
+		}
+		.Icon-Item-Box button{
+			margin-top: 25%;
+		}
+	}
+@media (max-width:396px) {
+	.Icon-Item-Box{
+		height: 29vh
+	}
+	.Border-Box{
+		height: 16vh;
+	}
+}	
+@media (max-width:380px) {
+		.Icon-Item-Box button{
+			width: 100px;
+		}
+		p{
+			margin: 0;
+		}
+		.navbar-header{
+			margin-top: 2px;
+		}
+		.Border-Box img{
+			height: 90%;
+		}
+
+	}
+
+
+

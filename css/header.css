@@ -1,0 +1,24 @@
+
+/*header*/
+header{
+	background-color:#212121;
+	color: #fff;
+	display: flex;
+}
+header .logoImg{
+	width: 20%;
+}
+header nav{
+	flex:1;
+}
+header .logoImg img{
+	width: 100%;
+}
+.ow-navigation.navbar-default .navbar-nav li a{
+	color: #fff;
+	display: inline-block;
+	line-height: 80px;
+}
+.ow-navigation.navbar-default .navbar-nav img {
+	width: 30px;
+}
